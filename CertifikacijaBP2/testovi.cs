@@ -13,7 +13,7 @@ namespace CertifikacijaBP2
 {
     public partial class testovi : Form
     {
-        static string connString = "Server=moops.ddns.net;Port=3306;Database=mijomysql;Uid=mijo;Pwd=vpvpilj32";
+        static string connString = "";
         MySqlConnection conn = new MySqlConnection(connString);
         MySqlCommand cmd;
         MySqlDataAdapter adapter;
